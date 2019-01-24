@@ -1,0 +1,5 @@
+KUBELET_ADDRESS="--address=0.0.0.0"
+KUBELET_HOSTNAME="--hostname-override=10.0.2.15"
+KUBELET_API_SERVER="--api-servers=http://10.0.2.15:8080"
+KUBELET_POD_INFRA_CONTAINER="--pod-infra-container-image=k8s.gcr.io/pause:3.1"
+KUBELET_ARGS="--enable-server=true --enable-debugging-handlers=true --fail-swap-on=false --kubeconfig=/var/lib/kubelet/kubeconfig"
